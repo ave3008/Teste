@@ -1,0 +1,119 @@
+/*Se aplica a tudo */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+}
+
+/*Caixas*/
+
+.Menu {
+    height: 75px;
+    width: 100%;
+    background: black;
+    margin-top: 0;
+    margin-left: 0;
+    box-shadow: 0 16px 12px rgba(0, 0, 0, 0.2);
+    z-index: 8;
+}
+
+/*Links*/
+
+.LinkWhite {
+    color: white;
+    z-index: 10;
+}
+
+/*Textos*/
+
+.Titulo {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: -50px;
+    margin-left: 5%;
+    z-index: 10;
+    max-width: 20%;
+}
+
+.TextSuporte {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -50px;
+    margin-left: 75%;
+    z-index: 10;
+    max-width: 4%;
+}
+
+.TextCarrinho {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -34px;
+    margin-left: 82%;
+    z-index: 10;
+    max-width: 4%;
+}
+
+.TextMinhaConta {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -34.5px;
+    margin-left: 90%;
+    z-index: 10;
+    max-width: 10%;
+}
+
+.TextSuporte0 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 55px;
+    margin-left: 2%;
+    z-index: 10;
+    max-width: 50%;
+}
+
+.TextSuporte1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 4%;
+    z-index: 10;
+    max-width: 50%;
+}
+
+.TextSuporte2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 4%;
+    z-index: 10;
+    max-width: 50%;
+}
+
+summary {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-left: 6%;
+}
+
+summary::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.TextSumary {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 6%;
+}

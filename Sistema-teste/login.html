@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AVE's shop - Login</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="icon" href="imagems/Icone.png">
+    </head>
+    <body>
+        <div class="Menu"></div>
+        <h1 class="Titulo"><a href="../LojaPortifolio.html" class="LinkWhite">AVE's shop</a></h1>
+        <p class="TextSuporte"><a href="../Suporte/Suporte.html" class="LinkWhite">Suporte</a></p>
+        <p class="TextCarrinho"><a href="Nada/Nada.html" class="LinkWhite">Carrinho</a></p>
+        <p class="TextMinhaConta"><a href="login.html" class="LinkWhite">Minha Conta</a></p>
+        <div class="LoginTela">
+            <p class="TextLoginPri">Login</p>
+            <p class="TextEmail">E-Mail:</p>
+            <input type="text" id="email" class="InputEmail">
+            <p class="TextSenha">Senha:</p>
+            <input type="text" id="senha" class="InputSenha">
+            <input type="button" value="Entrar" onclick="validarLogin()" class="InputBotaoEntrar">
+            <p class="TextSeparacao">Não tem uma conta ainda?</p>
+            <p class="TextCriarConta"><a href="registramento.html" class="LinkBlack">Criar conta</a></p>
+            <p class="TextAviso" id="textErrado"></p>
+        </div>
+        <script src="sistema/login.js"></script>
+    </body>
+</html>

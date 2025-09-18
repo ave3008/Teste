@@ -1,0 +1,155 @@
+/*Se aplica a tudo */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+}
+
+/*Caixas*/
+
+.Menu {
+    height: 75px;
+    width: 100%;
+    background: black;
+    margin-top: 0;
+    margin-left: 0;
+    box-shadow: 0 16px 12px rgba(0, 0, 0, 0.2);
+    z-index: 8;
+}
+
+.RegistroTela {
+    height: 600px;
+    width: 30%;
+    background: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-left: 35%;
+    align-items: center;
+    z-index: 9;
+}
+
+.InputEmailFut {
+    width: 60%;
+    height: 25px;
+    border: 3px solid #000;
+    margin-top: -50px;
+    margin-left: 17%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.InputBotaoEnviar {
+    width: 65%;
+    height: 60px;
+    background: black;
+    border: 3px solid #000;
+    margin-top: 20px;
+    margin-left: 17%;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    z-index: 10;
+}
+
+/*Links*/
+
+.LinkWhite {
+    color: white;
+    z-index: 10;
+}
+
+.LinkBlack {
+    color: black;
+    z-index: 10;
+}
+
+
+/*Textos*/
+
+.Titulo {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: -50px;
+    margin-left: 5%;
+    z-index: 10;
+    max-width: 20%;
+}
+
+.TextSuporte {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -50px;
+    margin-left: 75%;
+    z-index: 10;
+    max-width: 4%;
+}
+
+.TextCarrinho {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -34px;
+    margin-left: 82%;
+    z-index: 10;
+    max-width: 4%;
+}
+
+.TextMinhaConta {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -34.5px;
+    margin-left: 90%;
+    z-index: 10;
+    max-width: 10%;
+}
+
+.TextRegisPri {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.TextEmailFut {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.TextSenhaFut {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.TextAvisoFut {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.TextSeparacaoFut {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.TextCriarContaFut {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+}
